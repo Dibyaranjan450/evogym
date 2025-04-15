@@ -1,7 +1,6 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Logo from "../../assets/Logo.png";
 import { SelectedPage } from "../../shared/types";
-import Link from "../navbar/Link";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
