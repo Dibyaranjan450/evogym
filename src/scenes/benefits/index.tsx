@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
         icon: <HomeModernIcon className="h-6 w-6" />,
         title: "State of the Art Facilities",
         description:
-            "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+            "Our gym is equipped with the latest in fitness technology, premium training equipment to elevate your workouts.",
     },
     {
         icon: <UserGroupIcon className="h-6 w-6" />,
         title: "100's of Diverse Classes",
         description:
-            "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+            "Train in an environment designed for excellence. Our cutting-edge equipment, modern studios, and thoughtfully designed spaces.",
     },
     {
         icon: <AcademicCapIcon className="h-6 w-6" />,
         title: "Expert and Pro Trainers",
         description:
-            "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+            "Train with the best in the industry. Our certified coaches bring years of experience and knowledge to every session",
     },
 ];
 const container = {
@@ -116,17 +116,19 @@ const Benefits = ({ setSelectedPage }: Props) => {
                                 visible: { opacity: 1, x: 0 }
                             }}
                         >
-                            <p className="my-5">Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                                Felis orci diam odio.
+                            <p className="my-5">
+                                Be part of a fitness revolution that's transforming lives every
+                                single day. With state-of-the-art equipment, a wide variety of classes,
+                                and expert trainers who are passionate about your progress, our members
+                                are seeing real results and loving every moment of it. Don’t just dream
+                                about a healthier, stronger version of yourself come build it with us.
+                                Join millions who’ve already taken the first step toward a better lifestyle.
                             </p>
-                            <p className="mb-5">Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                            <p className="mb-5">
+                                From high-intensity interval training to calming yoga sessions,
+                                there’s something for everyone, no matter your age, experience,
+                                or fitness level. Our supportive community and motivating environment
+                                empower you to push past limits and unlock your full potential.
                             </p>
                         </motion.div>
 

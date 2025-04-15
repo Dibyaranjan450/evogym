@@ -71,10 +71,10 @@ const OurClasses = ({ setSelectedPage }: Props) => {
                     <div className="md:w-3/5">
                         <HText>OUR CLASSES</HText>
                         <p className="py-5">
-                            Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                            tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                            facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                            enim mattis odio in risus nunc.
+                            From strength training to flexibility and cardio, our classes are 
+                            designed to challenge and inspire. Led by expert instructors, each 
+                            session helps you move with purpose, build confidence, and reach 
+                            your goals—no matter your fitness level.
                         </p>
                     </div>
                 </motion.div>
